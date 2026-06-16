@@ -81,6 +81,10 @@ When everything starts correctly, the joint state broadcaster, arm controller, a
 
 ## Notes
 
+The original README inside Moveit2/ includes a manual Isaac Sim hardware-configuration step. That step is already done in this fork for Piper X, so after starting Isaac Sim, users only need to run:
+
+ros2 launch piper_x_gripper_moveit_config demo.launch.py
+
 This branch is project-focused. It is not meant to replace the full AgileX `agx_arm_sim` repository. This branch keeps the parts needed for my Piper X arm workflow.
 
 For the original AgileX package and full multi-arm documentation, use the `master` branch of this fork or the upstream AgileX repository.
