@@ -35,14 +35,14 @@ piperx_arm_sim/
 Clone the repository with submodules:
 
 ```bash
-cd ~/piperx_ws/src
+cd ~/piperx_sim_ws/src
 git clone --recursive https://github.com/muhammedahmedd/piperx_arm_sim.git
 ```
 
 If the repository was cloned without `--recursive`, initialize the submodule manually:
 
 ```bash
-cd ~/piperx_ws/src/piperx_arm_sim
+cd ~/piperx_sim_ws/src/piperx_arm_sim
 git submodule update --init --recursive
 ```
 
@@ -60,7 +60,7 @@ If you are not using the Docker setup from the main project, install the require
 From the workspace root:
 
 ```bash
-cd ~/piperx_ws
+cd ~/piperx_sim_ws
 colcon build
 source install/setup.bash
 ```
