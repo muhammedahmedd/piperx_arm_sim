@@ -36,7 +36,7 @@ Clone the repository with submodules:
 
 ```bash
 cd ~/piperx_sim_ws/src
-git clone --recursive https://github.com/muhammedahmedd/piperx_arm_sim.git
+git clone --recursive https://github.com/muhammedahmedd/piperx_arm_sim.git src/agx_arm_sim
 ```
 
 If the repository was cloned without `--recursive`, initialize the submodule manually:
